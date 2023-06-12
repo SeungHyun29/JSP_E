@@ -1,0 +1,129 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+}
+
+
+.header {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background: #143779;
+    height: 86px;
+}
+
+.logo {
+    width: 40%;
+    text-align: center;
+    line-height: 86px;
+}
+
+.logo>h1 {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    line-height: 86px;
+    margin-right: 250px;
+}
+
+.nav>li {
+    margin-left: 84px;
+}
+
+.nav>li>a>h4 {
+    color: #fff;
+}
+
+.main {
+    width: 100%;
+    height: 1840px;
+    margin: auto;
+}
+
+
+
+.setting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    height: 100vh;
+  }
+  
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color:#000000;
+    margin-top: 150px
+
+}
+
+ form {
+    width: 500px;
+    background-color: #a0a0a0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000000;
+    margin-top: 40px
+  }
+
+  
+ label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+
+  .label-name {
+    display: inline-block;
+    margin-bottom: 5px;
+    color:#000000
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    color:#000000
+  }
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0); 
+  }
+  
+ input[type="submit"] {
+    background-color: #143779;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+ input[type="submit"]:hover {
+    background-color: #464646;
+  }

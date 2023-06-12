@@ -1,0 +1,150 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+}
+
+
+.header {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background: #143779;
+    height: 86px;
+}
+
+.logo > a > img {
+    float:left;
+    width: 150px;
+    height: 30px;
+    margin-left: 290px;
+    margin-top: 28px;
+}
+
+.logo>h1 {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    line-height: 86px;
+    margin-right: 250px;
+}
+
+.nav>li {
+    margin-left: 84px;
+}
+
+.nav>li>a>h4 {
+    color: #fff;
+}
+
+
+
+.main {
+    width: 100%;
+    height: 1840px;
+    margin: auto;
+}
+
+.job-board {
+    text-align: center;
+}
+
+.job-board h1 {
+    margin-top: 180px;
+    margin-bottom: 20px;
+    color:black;
+    border-bottom: 2px solid #000; 
+    padding-bottom: 10px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job-board nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.job-board nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.job-board nav ul li {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.job-board nav ul li:not(:last-child) a {
+    border-right: none; 
+}
+
+.job-board nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 6px 10px;
+    border: 1px solid #000;
+    text-align: center;
+    width: 100%; 
+}
+
+.job-board nav ul li a:hover {
+    background: #143779;
+    color: #fff;
+}
+
+.menu-bar li.menu1 a {
+    background-color: #000000; 
+    color: #fff;
+  }
+
+  p{
+    color:rgb(0, 0, 0);
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #143779;
+
+  }
+  
+  th {
+    background-color: #3c5fa2;
+  }
+  
+  td img {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  td a {
+    color: #000;
+    text-decoration: none;
+  }
